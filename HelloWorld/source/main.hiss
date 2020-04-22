@@ -1,6 +1,11 @@
-(defun _create () nil)
+(import "flixel.text.FlxText")
+
+(defun _create ()
+    (let (text (new Flx-text 0 0 0 "Hello, world" 64))
+        (call text screen-center)
+        (call _state add text)))
 
 (defun _update (elapsed)
     (print elapsed))
 
-(call-method _main "addChild" (list (create-instance Flx-game (list 0 0 Hiss-state))))
+(call _main add-child (new Flx-game 0 0 Hiss-state))

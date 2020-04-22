@@ -3,6 +3,7 @@ package;
 import flixel.FlxGame;
 import flixel.FlxG;
 import openfl.display.Sprite;
+import flixel.text.FlxText;
 
 import hiss.HissRepl;
 

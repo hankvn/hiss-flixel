@@ -10,6 +10,7 @@ class HissState extends FlxState
 	{
 		super.create();
 
+		Main.hiss.interp.importObject("_state", this);
 		Main.hiss.eval('(_create)');
 	}
 
