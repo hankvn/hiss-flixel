@@ -1,0 +1,6 @@
+(defun _create () nil)
+
+(defun _update (elapsed)
+    (print elapsed))
+
+(call-method _main "addChild" (list (create-instance Flx-game (list 0 0 Hiss-state))))
