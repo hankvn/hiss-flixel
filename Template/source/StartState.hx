@@ -1,12 +1,11 @@
 import flixel.FlxState;
 import flixel.FlxGame;
 import flixel.FlxG;
+import flixel.FlxSprite;
 
 import flixel.text.FlxText;
 
 import flixel.ui.FlxButton;
-
-import openfl.display.Sprite;
 
 import hiss.CCInterp;
 import hiss.StaticFiles;
@@ -24,12 +23,12 @@ class StartState extends FlxState {
         interp.importClass(FlxState, "FlxState");
         interp.importClass(FlxGame, "FlxGame");
         interp.importClass(FlxG, "FlxG");
+        interp.importClass(FlxSprite, "FlxSprite");
 
         interp.importClass(FlxText, "FlxText");
 
         interp.importClass(FlxButton, "FlxButton");
 
-        interp.importClass(Sprite, "Sprite");
 
         interp.importClass(HissState, "HissState");
 

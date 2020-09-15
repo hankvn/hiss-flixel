@@ -5,7 +5,7 @@ using StringTools;
 import flixel.FlxGame;
 import flixel.FlxG;
 import openfl.display.Sprite;
-import hiss.CCInterp;
+
 import hiss.StaticFiles;
 
 import StartState;
