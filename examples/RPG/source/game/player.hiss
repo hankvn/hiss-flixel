@@ -1,0 +1,4 @@
+(defun make-player (x y)
+    (let (sprite (new FlxSprite x y))
+        (FlxSprite:make-graphic sprite 16 16 BLUE)
+        sprite))

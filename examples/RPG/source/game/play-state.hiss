@@ -1,7 +1,13 @@
+(load "game/player.hiss")
+
 (defun play-state ()
     (let (            
+            player nil
+
             create
-                (lambda (state) nil)
+                (lambda (state)
+                    (set! player (make-player 20 20))
+                    (FlxState:add state player))
             
             update
                 (lambda (state elapsed) nil)
