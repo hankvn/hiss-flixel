@@ -30,6 +30,8 @@ class StartState extends FlxState {
         interp.importClass(FlxButton, "FlxButton");
 
 
+        // HissFlixel
+        interp.importClass(HissFlxG, "HissFlxG");
         interp.importClass(HissState, "HissState");
 
         StaticFiles.compileWithAll("hiss");
