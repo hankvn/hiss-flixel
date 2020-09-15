@@ -1,0 +1,21 @@
+// FlxColor (a Haxe abstract) cannot be directly imported to Hiss.
+// Parts of its functionality are wrapped for importing by HissFlxColor.hx.
+// To avoid unnecessarily slow/kludgy wrapping behaviors, static constants are redefined here based on
+// https://github.com/HaxeFlixel/flixel/blob/d86152a4c5b27d8030fc54458d685e7cb8ae2d4c/flixel/util/FlxColor.hx
+
+// Color constants
+(defvar TRANSPARENT 0x00000000)
+(defvar WHITE 0xFFFFFFFF)
+(defvar GRAY 0xFF808080)
+(defvar BLACK 0xFF000000)
+(defvar GREEN 0xFF008000)
+(defvar LIME 0xFF00FF00)
+(defvar YELLOW 0xFFFFFF00)
+(defvar ORANGE 0xFFFFA500)
+(defvar RED 0xFFFF0000)
+(defvar PURPLE 0xFF800080)
+(defvar BLUE 0xFF0000FF)
+(defvar BROWN 0xFF8B4513)
+(defvar PINK 0xFFFFC0CB)
+(defvar MAGENTA 0xFFFF00FF)
+(defvar CYAN 0xFF00FFFF)
