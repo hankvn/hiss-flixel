@@ -46,7 +46,7 @@ class StartState extends FlxState {
         }
 
         // Game source
-        StaticFiles.compileWithAll("hiss");
-        interp.load("hiss/main.hiss");
+        StaticFiles.compileWithAll("game");
+        interp.load("game/main.hiss");
     }
 }

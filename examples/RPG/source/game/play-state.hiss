@@ -1,5 +1,5 @@
 (defun play-state ()
-    (let (
+    (let (            
             create
                 (lambda (state) nil)
             
@@ -8,4 +8,5 @@
 
             draw
                 (lambda (state) nil))
+
         (new HissState create update draw)))

@@ -1,0 +1,4 @@
+(load "game/menu-state.hiss")
+(load "game/play-state.hiss")
+
+(FlxG:switch-state (menu-state))

@@ -6,8 +6,9 @@
             click-play 
                 (lambda () 
                     (FlxG:switch-state (play-state)))
+
             create 
-                (lambda (state) 
+                (lambda (state)
                     (set! play-button (new FlxButton 0 0 "Play" click-play))
                     (FlxButton:screen-center play-button)
                     (FlxState:add state play-button))
