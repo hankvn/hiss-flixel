@@ -1,5 +1,5 @@
-800 // screen width
-480 // screen height
+320 // screen width
+240 // screen height
 1.0 // zoom
 60 // update() frame rate
 60 // draw() frame rate
