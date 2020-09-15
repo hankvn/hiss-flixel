@@ -22,22 +22,22 @@ class HissState extends FlxState
 
 	public override function create():Void
 	{
-		super.create();
-
 		_create(this);
+
+		super.create();
 	}
 
 	public override function update(elapsed:Float):Void
 	{
-		super.update(elapsed);
-
 		_update(this, elapsed);
+
+		super.update(elapsed);
 	}
 
 	public override function draw():Void {
-		super.draw();
-
 		_draw(this);
+
+		super.draw();
 	}
 
 }
